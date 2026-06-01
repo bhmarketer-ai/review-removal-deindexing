@@ -1,0 +1,22 @@
+# Exclude from NPM package
+dataset/
+schema/
+docs/
+kaggle/
+.github/
+*.py
+*.toml
+*.csv
+*.jsonl
+*.yaml
+*.yml
+*.md
+heartbeat.py
+scanner.py
+tsconfig.json
+MANIFEST.in
+
+# Keep for NPM
+# index.ts → compiled to index.js
+# package.json
+# LICENSE
