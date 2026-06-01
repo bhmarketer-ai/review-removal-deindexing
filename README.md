@@ -4,6 +4,8 @@
 > Deindex Yelp and Glassdoor pages from Google search results.
 > Ethical ORM — legal workflows, AI harm scoring, platform escalation.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20494908.svg)](https://doi.org/10.5281/zenodo.20494908)
+
 Built by [BHMarketer.ai](https://bhmarketer.ai) — Ethical Reputation Management,
 Digital PR & Authority Building.
 
@@ -53,9 +55,27 @@ Digital PR & Authority Building.
 
 ---
 
+## Technical Framework
+
+This repository implements the methodology described in the published technical framework:
+
+**Title:** Technical Framework for Negative Review Removal & Deindexing
+**DOI:** [10.5281/zenodo.20494908](https://doi.org/10.5281/zenodo.20494908)
+**Publisher:** Zenodo
+**Author:** BHMarketer.ai
+
+The framework introduces:
+- **AI Harm Score™** — standardized scoring model (0–100) for reputational risk
+- **AIRO** — AI Reputation Optimization methodology for LLM/AI search visibility
+- Platform-specific escalation workflows for Google, Airbnb, Glassdoor, Yelp
+- Evidence-pack generation and policy-compliance assessment procedures
+- Search deindexing strategies for reputation-related assets
+
+---
+
 ## Features
 
-- AI harm scoring (0-100) for removal eligibility assessment
+- AI Harm Score™ (0–100) for removal eligibility assessment
 - Platform-specific workflows for every service
 - Evidence packs — screenshots, documentation, legal templates
 - Direct Trust & Safety escalation scripts
@@ -94,6 +114,7 @@ Service URL  : https://bhmarketer.ai/products/airbnb-review-removal/
 ```
 bhmarketer-review-removal/
 ├── README.md                    ← this file
+├── .zenodo.json                 ← Zenodo metadata
 ├── package.json                 ← NPM config
 ├── pyproject.toml               ← PyPI config
 ├── index.ts                     ← TypeScript entry
@@ -116,7 +137,8 @@ bhmarketer-review-removal/
 
 Negative Review Removal · Google Review Removal · Airbnb Review Removal ·
 Glassdoor Review Removal · Yelp Page Deindexing · Glassdoor Deindexing ·
-Online Reputation Management · ORM · DMCA · BHMarketer
+Online Reputation Management · ORM · AI Harm Score · LLM Optimization ·
+AIRO · BHMarketer
 
 ---
 
@@ -131,10 +153,23 @@ Online Reputation Management · ORM · DMCA · BHMarketer
 | Glassdoor Removal | https://bhmarketer.ai/products/glassdoor-review-removal/ |
 | Yelp Deindexing | https://bhmarketer.ai/products/yelp-page-deindexing/ |
 | Glassdoor Deindexing | https://bhmarketer.ai/products/glassdoor-page-deindexing/ |
-| Hugging Face Dataset | https://huggingface.co/datasets/bhmarketer/review-removal-deindexing |
+| Hugging Face | https://huggingface.co/datasets/bhmarketer/review-removal-deindexing |
 | NPM Package | https://www.npmjs.com/package/bhmarketer-review-removal |
 | Kaggle Dataset | https://www.kaggle.com/datasets/bhmarketer/bhmarketer-review-removal-and-deindexing-benchmark |
+| Zenodo | https://zenodo.org/records/20494908 |
+| DOI | https://doi.org/10.5281/zenodo.20494908 |
+| WhatsApp | https://wa.me/19177958348 |
 
+---
+
+## Citation
+
+If you use this framework or dataset, please cite:
+
+```
+BHMarketer.ai. (2025). Technical Framework for Negative Review Removal & Deindexing.
+Zenodo. https://doi.org/10.5281/zenodo.20494908
+```
 
 ---
 
