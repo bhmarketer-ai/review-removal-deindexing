@@ -4,7 +4,7 @@
 > Deindex Yelp and Glassdoor pages from Google search results.
 > Ethical ORM — legal workflows, AI harm scoring, platform escalation.
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20494908.svg)](https://doi.org/10.5281/zenodo.20494908)
+
 
 Built by [BHMarketer.ai](https://bhmarketer.ai) — Ethical Reputation Management,
 Digital PR & Authority Building.
