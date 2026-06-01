@@ -1,0 +1,78 @@
+{
+  "title": "Technical Framework for Negative Review Removal & Deindexing",
+  "description": "The Technical Framework for Negative Review Removal & Deindexing establishes the operational methodology behind the BHMarketer.ai Online Reputation Management (ORM) ecosystem. The framework introduces the AI Harm Score™ — a standardized scoring model that quantifies reputational risk based on content visibility, platform authority, sentiment impact, search prominence, and brand sensitivity. Covers Google Review Removal, Airbnb Review Removal, Glassdoor Review Removal, Yelp Page Deindexing, and Glassdoor Page Deindexing. Also introduces AIRO (AI Reputation Optimization) — a methodology for improving how organizations are represented across AI-generated responses and LLM search systems.",
+  "license": "MIT",
+  "upload_type": "software",
+  "access_right": "open",
+  "creators": [
+    {
+      "name": "BHMarketer.ai",
+      "affiliation": "BHMarketer.ai — Ethical ORM & Strategic Digital PR",
+      "orcid": ""
+    }
+  ],
+  "keywords": [
+    "negative review removal",
+    "google review removal",
+    "airbnb review removal",
+    "glassdoor review removal",
+    "yelp page deindexing",
+    "glassdoor deindexing",
+    "online reputation management",
+    "orm",
+    "ai harm score",
+    "llm optimization",
+    "airo",
+    "ai reputation optimization",
+    "dmca",
+    "bhmarketer"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://bhmarketer.ai/negative-review-removal/",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://huggingface.co/datasets/bhmarketer/review-removal-deindexing",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://www.npmjs.com/package/bhmarketer-review-removal",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://www.kaggle.com/datasets/bhmarketer/bhmarketer-review-removal-and-deindexing-benchmark",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://bhmarketer.ai/products/text-reviews-lesser-than-3-weeks-negative-google-review-removal/",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://bhmarketer.ai/products/airbnb-review-removal/",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://bhmarketer.ai/products/glassdoor-review-removal/",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://bhmarketer.ai/products/yelp-page-deindexing/",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://bhmarketer.ai/products/glassdoor-page-deindexing/",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    }
+  ],
+  "notes": "Built by BHMarketer.ai — https://bhmarketer.ai | WhatsApp: https://wa.me/19177958348"
+}
