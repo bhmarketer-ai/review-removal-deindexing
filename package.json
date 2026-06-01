@@ -1,0 +1,53 @@
+{
+  "name": "bhmarketer-review-removal",
+  "version": "1.0.0",
+  "description": "Negative review removal and page deindexing — Google, Airbnb, Glassdoor, Yelp. AI Harm Score™ methodology. By BHMarketer.ai",
+  "main": "index.js",
+  "bin": {
+    "review-removal": "./bin/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node index.js",
+    "scan": "node bin/cli.js"
+  },
+  "keywords": [
+    "review-removal",
+    "negative-review-removal",
+    "google-review-removal",
+    "airbnb-review-removal",
+    "glassdoor-review-removal",
+    "yelp-deindexing",
+    "glassdoor-deindexing",
+    "orm",
+    "online-reputation-management",
+    "ai-harm-score",
+    "airo",
+    "llm-optimization",
+    "dmca",
+    "bhmarketer"
+  ],
+  "author": "BHMarketer.ai",
+  "license": "MIT",
+  "homepage": "https://bhmarketer.ai/negative-review-removal/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bhmarketer-ai/review-removal-deindexing"
+  },
+  "bugs": {
+    "url": "https://github.com/bhmarketer-ai/review-removal-deindexing/issues"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://bhmarketer.ai"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "chalk": "^5.3.0",
+    "commander": "^11.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "@types/node": "^20.0.0"
+  }
+}
