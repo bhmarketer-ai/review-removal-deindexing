@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title":   "BHMarketer Review Removal & Deindexing Case",
+  "description": "Schema for a removal or deindexing case handled by BHMarketer.ai",
+  "type":    "object",
+  "required": ["id", "platform", "action", "harm_score", "status"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique case ID",
+      "example": "CASE-001"
+    },
+    "platform": {
+      "type": "string",
+      "enum": ["google", "airbnb", "glassdoor", "yelp"],
+      "description": "Platform where the review or page appears"
+    },
+    "action": {
+      "type": "string",
+      "enum": ["review_removal", "page_deindexing"],
+      "description": "Type of action requested"
+    },
+    "price": {
+      "type": "string",
+      "description": "Service price",
+      "example": "$1,000"
+    },
+    "harm_score": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100,
+      "description": "AI Harm Score™ — higher means stronger removal case"
+    },
+    "removal_method": {
+      "type": "string",
+      "enum": [
+        "policy_flag",
+        "dmca",
+        "defamation",
+        "employer_response",
+        "trust_safety_escalation",
+        "noindex_request",
+        "legal_suppression"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": ["pending", "submitted", "resolved", "rejected"]
+    },
+    "outcome": {
+      "type": "string",
+      "enum": ["removed", "deindexed", "suppressed", "rejected", "in_progress"]
+    },
+    "days_to_resolve": {
+      "type": ["integer", "null"]
+    },
+    "service_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "BHMarketer.ai product page for this service"
+    }
+  }
+}
