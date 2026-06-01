@@ -109,27 +109,40 @@ Service URL  : https://bhmarketer.ai/products/airbnb-review-removal/
 
 ---
 
-## Project Structure
+# BHMarketer Online Reputation Management & De-indexing Infrastructure
 
-```
+An automated, data-driven framework engineered for ethical content verification, policy-compliant review tracking, and digital asset visibility auditing. 
+
+## 🏗️ Project Structure
+
+Below is the complete architectural layout of the repository as referenced across our production and documentation environments:
+
+```text
 bhmarketer-review-removal/
-├── README.md                    ← this file
-├── .zenodo.json                 ← Zenodo metadata
-├── package.json                 ← NPM config
-├── pyproject.toml               ← PyPI config
-├── index.ts                     ← TypeScript entry
-├── scanner.py                   ← Python scanner
-├── heartbeat.py                 ← auto-commit script
-├── schema/
-│   └── services_schema.json     ← data schema
-├── dataset/
-│   └── cases.csv                ← 25 removal cases
 ├── .github/
 │   └── workflows/
-│       └── heartbeat.yml        ← runs every 4 days
-├── LICENSE
-└── MANIFEST.in
-```
+│       └── heartbeat.yml          # GitHub Actions workflow running every 4 days to automate heartbeats
+├── dataset/
+│   └── cases.csv                  # Dataset containing documented case studies and removal tracking
+├── docs/
+│   └── requirements.txt           # Documentation dependencies and environment configurations
+├── schema/
+│   └── services_schema.json       # Structural validation schema for service data formatting
+├── .gitignore                     # Specifies intentionally untracked files to ignore from Git
+├── .npmignore                     # Restricts specific configuration files from NPM package publishing
+├── .readthedocs.yaml              # Build system configuration file for Read the Docs platform
+├── .zenodo.json                   # Metadata configuration for Zenodo research data integration
+├── heartbeat.py                   # Automated script executing data checks and continuous verification commits
+├── index.ts                       # TypeScript production application entrypoint
+├── LICENSE                        # Distribution terms and project legal licensing file
+├── MANIFEST.in                    # Distutils packing manifest configuration for Python setups
+├── mkdocs.yml                     # Configuration profile and layout structure for MkDocs documentation
+├── package.json                   # NPM manifest mapping project scripts, configurations, and requirements
+├── pyproject.toml                 # PyPI package management configuration for tool workflows
+├── README.md                      # Core project documentation and structural overview file
+├── scanner.py                     # Python-driven core scanning script for web entity auditing
+├── schema.jsonld                  # Structured Linked Data context format for knowledge graph parsing
+└── status.txt                     # Dynamically updated state tracking and execution log file
 
 ---
 
