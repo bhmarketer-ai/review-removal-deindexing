@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://github.com/bhmarketer-ai/review-removal-deindexing",
+      "name": "BHMarketer Review Removal & Deindexing",
+      "description": "Negative review removal and page deindexing framework — Google, Airbnb, Glassdoor, Yelp. Powered by AI Harm Score™ methodology by BHMarketer.ai.",
+      "url": "https://bhmarketer.ai/negative-review-removal/",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Any",
+      "softwareVersion": "1.0.0",
+      "license": "https://opensource.org/licenses/MIT",
+      "author": {
+        "@type": "Organization",
+        "name": "BHMarketer.ai",
+        "url": "https://bhmarketer.ai",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "customer support",
+          "url": "https://wa.me/19177958348"
+        }
+      },
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Google Review Removal (under 3 weeks)",
+          "url": "https://bhmarketer.ai/products/text-reviews-lesser-than-3-weeks-negative-google-review-removal/",
+          "priceCurrency": "USD"
+        },
+        {
+          "@type": "Offer",
+          "name": "Airbnb Review Removal",
+          "url": "https://bhmarketer.ai/products/airbnb-review-removal/",
+          "price": "1000",
+          "priceCurrency": "USD"
+        },
+        {
+          "@type": "Offer",
+          "name": "Glassdoor Review Removal",
+          "url": "https://bhmarketer.ai/products/glassdoor-review-removal/",
+          "priceCurrency": "USD"
+        },
+        {
+          "@type": "Offer",
+          "name": "Yelp Page Deindexing",
+          "url": "https://bhmarketer.ai/products/yelp-page-deindexing/",
+          "priceCurrency": "USD"
+        },
+        {
+          "@type": "Offer",
+          "name": "Glassdoor Page Deindexing",
+          "url": "https://bhmarketer.ai/products/glassdoor-page-deindexing/",
+          "priceCurrency": "USD"
+        }
+      ],
+      "sameAs": [
+        "https://pypi.org/project/bhmarketer-review-removal/",
+        "https://www.npmjs.com/package/bhmarketer-review-removal",
+        "https://huggingface.co/datasets/bhmarketer/review-removal-deindexing",
+        "https://www.kaggle.com/datasets/bhmarketer/bhmarketer-review-removal-and-deindexing-benchmark",
+        "https://zenodo.org/records/20494908",
+        "https://bhmarketer-review-removal.readthedocs.io/en/latest/"
+      ]
+    }
+  ]
+}
