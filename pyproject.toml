@@ -1,0 +1,54 @@
+[build-system]
+requires      = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name        = "bhmarketer-review-removal"
+version     = "1.0.0"
+description = "Negative review removal and page deindexing — Google, Airbnb, Glassdoor, Yelp. AI Harm Score™ by BHMarketer.ai"
+readme      = "README.md"
+license     = { text = "MIT" }
+authors     = [{ name = "BHMarketer.ai", email = "hello@bhmarketer.ai" }]
+keywords    = [
+  "review-removal",
+  "negative-review-removal",
+  "google-review-removal",
+  "airbnb-review-removal",
+  "glassdoor-review-removal",
+  "yelp-deindexing",
+  "glassdoor-deindexing",
+  "orm",
+  "online-reputation-management",
+  "ai-harm-score",
+  "airo",
+  "llm-optimization",
+  "bhmarketer"
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Internet :: WWW/HTTP",
+  "Operating System :: OS Independent"
+]
+requires-python = ">=3.9"
+dependencies    = [
+  "requests>=2.31.0",
+  "click>=8.1.0",
+  "rich>=13.0.0"
+]
+
+[project.urls]
+Homepage              = "https://bhmarketer.ai/negative-review-removal/"
+Repository            = "https://github.com/bhmarketer-ai/review-removal-deindexing"
+"Google Removal"      = "https://bhmarketer.ai/products/text-reviews-lesser-than-3-weeks-negative-google-review-removal/"
+"Airbnb Removal"      = "https://bhmarketer.ai/products/airbnb-review-removal/"
+"Glassdoor Removal"   = "https://bhmarketer.ai/products/glassdoor-review-removal/"
+"Yelp Deindexing"     = "https://bhmarketer.ai/products/yelp-page-deindexing/"
+"Glassdoor Deindexing"= "https://bhmarketer.ai/products/glassdoor-page-deindexing/"
+"Hugging Face"        = "https://huggingface.co/datasets/bhmarketer/review-removal-deindexing"
+"Kaggle"              = "https://www.kaggle.com/datasets/bhmarketer/bhmarketer-review-removal-and-deindexing-benchmark"
+"NPM"                 = "https://www.npmjs.com/package/bhmarketer-review-removal"
+"Zenodo"              = "https://zenodo.org/records/20494908"
+
+[project.scripts]
+review-removal = "scanner:main"
