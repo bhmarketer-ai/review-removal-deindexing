@@ -1,0 +1,16 @@
+project   : BHMarketer Review Removal & Deindexing
+version   : 1.0.0
+status    : active
+author    : BHMarketer.ai
+homepage  : https://bhmarketer.ai/negative-review-removal/
+github    : https://github.com/bhmarketer-ai/review-removal-deindexing
+pypi      : https://pypi.org/project/bhmarketer-review-removal/
+npm       : https://www.npmjs.com/package/bhmarketer-review-removal
+huggingface: https://huggingface.co/datasets/bhmarketer/review-removal-deindexing
+kaggle    : https://www.kaggle.com/datasets/bhmarketer/bhmarketer-review-removal-and-deindexing-benchmark
+zenodo    : https://zenodo.org/records/20494908
+doi       : https://doi.org/10.5281/zenodo.20494908
+docs      : https://bhmarketer-review-removal.readthedocs.io/en/latest/
+whatsapp  : https://wa.me/19177958348
+license   : MIT
+last_updated: 2025-06-01
